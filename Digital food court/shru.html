@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Food Item Details</title>
+<style>
+ .food-item {
+ border: 1px solid #ccc;
+ padding: 20px;
+ border-radius: 5px;
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ }
+ .food-details {
+ flex-grow: 0.5;
+ }
+ .food-name {
+ font-size: 18px;
+ font-weight: bold;
+ }
+ .price-box {
+display: flex
+;
+ align
+-items: center
+;
+ 
+}
+ .currency
+{
+ font
+-size: 16px
+;
+ font
+-weight: bold
+;
+ 
+}
+ .amount
+{
+ font
+-size: 24px
+;
+ font
+-weight: bold
+;
+ 
+}
+ .quantity
+-box
+{
+ display: flex
+;
+ align
+-items: center
+;
+ 
+}
+ .quantity
+-label
+{
+ margin
+-right: 10px
+;
+ 
+}
+ .quantity
+-input
+{
+ width: 50px
+;
+ padding: 5px
+;
+</style>
+</head>
+<body>
+ <img src="berger.jpg" alt="image not 
+found" width="170" height="170">
+ <div class="food-item">
+ <div class="food-details">
+ <div class="food-name">Cheese Burger</div>
+ <div class="price-box">
+ <span class="currency">Rs.</span>
+ <span class="amount">90</span>
+ </div>
+ </div>
+ <div class="quantity-box">
+ <label for="quantity" class="quantity-label">Quantity:</label>
+ <input type="number" id="quantity" class="quantity-input" min="1" max="10"
+value="1">
+ </div>
+ </div>
+ <img src="cheese-fries.jpg" alt="image not found"
+width="170" height="170">
+ <div class="food-item">
+ <div class="food-details">
+ <div class="food-name">Cheese Fries</div>
+ <div class="price-box">
+ <span class="currency">Rs.</span>
+ <span class="amount">120</span>
+ </div>
+ </div>
+<div class="quantity-box">
+ <label for="quantity" class="quantity-label">Quantity:</label>
+ <input type="number" id="quantity" class="quantity-input" min="1" max="10"
+value="1">
+ </div>
+ </div>
+ <img src="pizza.jpg" alt="image not found"
+width="170" height="170">
+ <div class="food-item">
+ <div class="food-details">
+ <div class="food-name">Pizza</div>
+ <div class="price-box">
+ <span class="currency">Rs.</span>
+ <span class="amount">200</span>
+ </div>
+ </div>
+ <div class="quantity-box">
+ <label for="quantity" class="quantity-label">Quantity:</label>
+ <input type="number" id="quantity" class="quantity-input" min="1" max="10"
+value="1">
+ </div>
+ </div>
+ <p style="font-size: 30px; text-align: center;">
+ <a href="Payment.html" >payment</a>
+</p>
+</body>
+</html>
